@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SUZUME</title>
+    <link rel="stylesheet" href="spyx.css">
+</head>
+<body>
+    <header>
+        <h1>SUZUME</h1>
+    </header>
+    <video id="video-player" width="800" height="440" controls autoplay>
+        <source src="suzume.mp4" type="video/mp4">
+    </video><br>
+        <script>
+            const video = document.getElementById('video-player');
+    
+            video.addEventListener('click', () => {
+                if (video.paused) {
+                    video.play();
+                } else {
+                    video.pause();
+                }
+            });
+        </script>
+</body>
+
+    <form id="comment-form" class="goggy">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required><br>
+        <label for="comment">Comment:</label><br>
+        <textarea id="comment" name="comment" rows="6" cols="50" required></textarea><br>
+        <input type="submit" value="Submit Comment">
+    </form>
+    <div class="text">
+        <p>On her way to school one day, Suzume Iwato stumbles upon Souta Munakata, a young man searching for abandoned areas. The high school girl
+             directs Souta to a nearby ruin, but out of pure curiosity, she herself decides to head to the same destination. Once there, Suzume discovers an isolated door with a dreamlike universe lying beyond it—a place that she can see and feel, but not enter. A strange stone rests on the ground nearby, but it turns into a cat-like creature and scurries away when Suzume lifts it...</p>
+    </div>
+    <div class="parent-container">
+        <a href="index1.html"><button class="centered-button">Home</button></a>
+    </div>  
+    <main>
+        <video id="background-video" muted loop autoplay>
+            <source src="Suzume no Tojimari「AMV」RADWIMPS - Suzume feat. Toaka.mp4" type="video/mp4">
+        </video>
+
+    </main>
+</body>
+</html>

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NARUTO</title>
+    <link rel="stylesheet" href="spyx.css">
+</head>
+<body>
+    <header>
+        <h1>NARUTO</h1>
+    </header>
+    <video id="video-player" width="800" height="440" controls autoplay>
+        <source src="NAAN NAAN _ NARUTO BADASS _ TAMIL [AMV_EDIT] 4K.mp4" type="video/mp4">
+    </video><br>
+        <script>
+            const video = document.getElementById('video-player');
+    
+            video.addEventListener('click', () => {
+                if (video.paused) {
+                    video.play();
+                } else {
+                    video.pause();
+                }
+            });
+        </script>
+</body>
+
+    <form id="comment-form" class="goggy">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required><br>
+        <label for="comment">Comment:</label><br>
+        <textarea id="comment" name="comment" rows="8" cols="50" required></textarea><br>
+        <input type="submit" value="Submit Comment">
+    </form>
+<form action="index1.html" class="change-button">
+    <label for="gender">Episodes:</label>
+    <select id="episodes" name="Episodes">
+        <option value="02">02</option>
+        <option value="03">03</option>
+    </select>
+</form>
+<div class="parent-container">
+    <a href="mamu3.html"><button class="centered-button">>></button></a>
+</div>
+<div class="parent-container">
+    <a href="mamu1.html"><button class="centered-button"><<</button></a>
+</div>
+    <div class="text">
+        <p>A routine rank-C mission turned into a full-blown battle as the Hidden Fall village is attacked by enemy ninjas. Now Naruto, Sasuke and Sakura must help 
+            the leader of the Hidden Fall, Shibuki, protect his village and show him what being a hero is all about.</p>
+    </div>
+    <div class="parent-container">
+        <a href="index1.html"><button class="centered-button">Home</button></a>
+    </div>  
+    <main>
+        <video id="background-video" muted loop autoplay>
+            <source src="y2mate.is - MINATO _Stronger_ - Naruto [ Edit_AMV ]-httvE3QPSFw-720p-1691564744.mp4" type="video/mp4">
+        </video>
+
+    </main>
+</body>
+</html>

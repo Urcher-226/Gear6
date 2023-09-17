@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SpyXFamily</title>
+    <link rel="stylesheet" href="spyx.css">
+</head>
+<body>
+    <header>
+        <h1> SpyXFamily</h1>
+    </header>
+    <video id="video-player" width="800" height="440" controls autoplay>
+        <source src="Stereo Love Ft. A Silent Voice _ Redon Editz AMV Edits _ SabasKaribe!⚡.mp4" type="video/mp4">
+    </video><br>
+        <script>
+            const video = document.getElementById('video-player');
+    
+            video.addEventListener('click', () => {
+                if (video.paused) {
+                    video.play();
+                } else {
+                    video.pause();
+                }
+            });
+        </script>
+</body>
+
+    <form id="comment-form" class="goggy">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required><br>
+        <label for="comment">Comment:</label><br>
+        <textarea id="comment" name="comment" rows="8" cols="50" required></textarea><br>
+        <input type="submit" value="Submit Comment">
+    </form>
+<form action="index1.html" class="change-button">
+    <label for="gender">Episodes:</label>
+    <select id="episodes" name="Episodes">
+        <option value="02">02</option>
+        <option value="03">03</option>
+    </select>
+</form>
+<div class="parent-container">
+    <a href="sosa3.html"><button class="centered-button">>></button></a>
+</div>
+<div class="parent-container">
+    <a href="sosa1.html"><button class="centered-button"><<</button></a>
+</div>
+    <div class="text">
+        <p>this is a paragraph Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure eum hic debitis eveniet alias quas 
+            voluptas incidunt unde aspernatur Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore nulla excepturi 
+            cupiditate 
+            autem? Neque corrupti quidem optio eum laboriosam eaque ducimus distinctio
+             architecto non nihil, odio accusantium animi nobis suscipit.
+            aperiam neque accusamus, soluta doloremque laboriosam explicabo totam doloribus similique labore.</p>
+    </div>
+    <div class="parent-container">
+        <a href="index1.html"><button class="centered-button">Home</button></a>
+    </div>  
+    <main>
+        <video id="background-video" muted loop autoplay>
+            <source src="Levitating - Spy X Family [Edit_AMV] - Raa.mp4" type="video/mp4">
+        </video>
+
+    </main>
+</body>
+</html>

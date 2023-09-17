@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DRAGON BALL Z</title>
+    <link rel="stylesheet" href="spyx.css">
+</head>
+<body>
+    <header>
+        <h1>DRAGON BALL Z</h1>
+    </header>
+    <video id="video-player" width="800" height="440" controls autoplay>
+        <source src="videoplayback.mp4" type="video/mp4">
+    </video><br>
+        <script>
+            const video = document.getElementById('video-player');
+    
+            video.addEventListener('click', () => {
+                if (video.paused) {
+                    video.play();
+                } else {
+                    video.pause();
+                }
+            });
+        </script>
+</body>
+
+
+    <form id="comment-form" class="goggy">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required><br>
+        <label for="comment">Comment:</label><br>
+        <textarea id="comment" name="comment" rows="8" cols="50" required></textarea><br>
+        <input type="submit" value="Submit Comment">
+    </form>
+<form action="index1.html" class="change-button">
+    <label for="gender">Episodes:</label>
+    <select id="episodes" name="Episodes">
+        <a href="goku.html"><option value="01">01</option></a>
+        <a href="spyxfamilyep5.html"><option value="02">02</option></a>
+        <a href="spyxfamilyep6.html"><option value="03">03</option></a>
+    </select>
+</form>
+<div class="parent-container">
+    <a href="goku2.html"><button class="centered-button">>></button></a>
+</div>
+<div class="parent-container">
+    <a href="goku.html"><button class="centered-button"><<</button></a>
+</div>
+    <div class="text">
+        <p>Five years after winning the World Martial Arts tournament, SON-Goku is now living a peaceful life with his wife and son. 
+            This changes, however, with the arrival of a mysterious enemy named Raditz who presents himself as Goku's long-lost brother. 
+            He reveals that Goku is a warrior from the once powerful but now virtually extinct Saiyan race, whose homeworld was completely annihilated. When he was sent to Earth as a baby, Goku's sole purpose was to conquer and destroy the planet; but after suffering amnesia from a head injury, his violent and savage nature changed, and instead was raised as a kind and well-mannered boy, now fighting to protect others. With his failed attempt at forcibly recruiting Goku as an ally, Raditz warns Goku's friends of a new threat that's rapidly approaching Earth—one that could plunge Earth into an intergalactic conflict and cause the heavens themselves to shake
+             A war will be fought over the seven mystical dragon balls, and only the strongest will survive in Dragon Ball Z..</p>
+    </div>
+    <div class="parent-container">
+        <a href="index1.html"><button class="centered-button">Home</button></a>
+    </div>  
+    <main>
+        <video id="background-video" muted loop autoplay>
+            <source src="GigaChad Phonk _ Dragon Ball Super [Edit_AMV].mp4" type="video/mp4">
+        </video>
+
+    </main>
+</body>
+</html>

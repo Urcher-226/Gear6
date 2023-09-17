@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YOUR NAME</title>
+    <link rel="stylesheet" href="spyx.css">
+</head>
+<body>
+    <header>
+        <h1> YOUR NAME</h1>
+    </header>
+    <video id="video-player" width="800" height="440" controls autoplay>
+        <source src="Project 8(ii).mp4" type="video/mp4">
+    </video><br>
+        <script>
+            const video = document.getElementById('video-player');
+    
+            video.addEventListener('click', () => {
+                if (video.paused) {
+                    video.play();
+                } else {
+                    video.pause();
+                }
+            });
+        </script>
+</body>
+
+    <form id="comment-form" class="goggy">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required><br>
+        <label for="comment">Comment:</label><br>
+        <textarea id="comment" name="comment" rows="6" cols="50" required></textarea><br>
+        <input type="submit" value="Submit Comment">
+    </form>
+    <div class="text">
+        <p>Mitsuha Miyamizu, a high school girl, yearns to live the life of a boy in the bustling city of Tokyo—a dream that stands in stark contrast to her present life in the countryside. Meanwhile in the city, Taki Tachibana lives a busy life as a high school student while juggling his part-time job and hopes for a future in architecture.
+
+            One day, Mitsuha awakens in a room that is not her own and suddenly finds herself living the dream life in Tokyo—but in Taki's body! Elsewhere, Taki finds himself living Mitsuha's life in the humble countryside. In pursuit of an answer to this strange phenomenon, they begin to search for one another.
+            
+            Kimi no Na wa...</p>
+    </div>
+    <div class="parent-container">
+        <a href="index1.html"><button class="centered-button">Home</button></a>
+    </div>  
+    <main>
+        <video id="background-video" muted loop autoplay>
+            <source src="your name.mp4" type="video/mp4">
+        </video>
+
+    </main>
+</body>
+</html>
