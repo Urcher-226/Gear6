@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: -10;
+    background-position: center;
+    background-size: cover;
+}
+header {
+    background: #22e5ce00;
+    align-items: center;
+    min-height: 0vh;
+    padding: 1em;
+}
+h1{
+    background-color: #22e5ce00;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 1em; 
+    size: 100%;
+}
+h2{
+    text-align: center;
+}
+#background-video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+form {
+    width: 300px;
+    margin: 0 auto;
+}
+select {
+    width: 50%; 
+    padding: 3px;
+    font-size: 16px;
+    font-style: oblique;
+}
+label{
+    width: 40%;
+    padding: 4px;
+    font-size: 25px;
+    color: #890025;
+}
+.text{
+    width: 100%;
+    font-size: 19px;
+    color: rgb(255, 255, 255);
+}
+.centered-button {
+    display: inline-block;
+    text-align: center;
+}
+.parent-container {
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: -10px;
+}
+
+.centered-button {
+    margin: 0;
+    font-size: 26px;
+    background-color: #FF5733; 
+    color: white; 
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.goggy{
+    margin-left: 1000px;
+    margin-top: -300px;
+    margin-bottom: 120px;
+}
+.but{
+    margin: 0;
+    font-size: 16px;
+    background-color: #5c535195; 
+    color: white; 
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
