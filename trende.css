@@ -1,3 +1,4 @@
+@media (max-width: 768px) {
 body, html {
     margin: 0;
     padding: 0;
@@ -104,4 +105,5 @@ a{
 .topnav .search-container button:hover {
   background: #ffffff53;
   color: #000000;
+}
 }
